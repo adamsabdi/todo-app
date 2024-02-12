@@ -2,6 +2,7 @@ import time
 import functions
 
 now = time.strftime("%b %d, %Y - %H:%M:%S")
+print("The time is below:")
 print("It is ", now)
 
 
