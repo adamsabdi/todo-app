@@ -6,5 +6,4 @@ clean the code
 study python coding
 We just made a default arg
 Buy some milk for the family
-Lastly added
-Watch a movie
+
