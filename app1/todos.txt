@@ -1,9 +1,7 @@
-Go shopping
 Clean the house
 Pickup the kids from school
 Always code python
-clean the code
-study python coding
 We just made a default arg
 Buy some milk for the family
-
+Go shopping
+Clean the room
