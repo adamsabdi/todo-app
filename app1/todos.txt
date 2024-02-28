@@ -4,4 +4,3 @@ Always code python
 We just made a default arg
 Buy some milk for the family
 Go shopping
-Clean the room

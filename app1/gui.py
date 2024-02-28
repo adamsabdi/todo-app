@@ -2,10 +2,10 @@ import functions
 import PySimpleGUI as sg
 import time
 
-sg.theme("black")
+sg.theme("DarkSteel7")
 
 clock = sg.Text('', key='clock')
-label = sg.Text("Type in to-do item")
+label = sg.Text("Type in your to-do item")
 input_box = sg.InputText(tooltip="Enter todo", key='todo')
 add_button = sg.Button("Add")
 list_box = sg.Listbox(values=functions.get_todos(), key='todos',
@@ -14,7 +14,7 @@ edit_buton = sg.Button('Edit')
 complete_button = sg.Button('Complete')
 exit_button = sg.Button('Exit')
 
-window = sg.Window('My To-Do App',
+window = sg.Window('Do App',
                    [[clock],
                         [label],
                         [input_box, add_button],
@@ -45,7 +45,6 @@ while True:
                 window['todos'].update(values=todos)
             except IndexError:
                 sg.popup("Please select item first to delete.", font=('Helvetica', 20))
-
 
         case 'Complete':
             try:
