@@ -1,6 +1,6 @@
-Clean the house
-Pickup the kids from school
-Always code python
-We just made a default arg
-Buy some milk for the family
-Go shopping
+Do the laundry
+Throw the trash
+Help the neighbour
+Return books to the library
+Buy Grocery
+Pick up flowers

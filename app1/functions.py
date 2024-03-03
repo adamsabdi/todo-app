@@ -1,7 +1,9 @@
-FILEPATH = "todos.txt"
+#FILEPATH = "/Users/adamabdi/Desktop/Mega_Course_Learn_Python_20App/app1/todos.txt"
+#FILEPATH = "todos.txt"
+FILEPATH = 'app1/todos.txt'
 
 
-def get_todos(filepath= FILEPATH):
+def get_todos(filepath=FILEPATH):
     """Reads a text file and returns the list
     of to-do items."""
     with open(filepath, 'r') as file_local:
